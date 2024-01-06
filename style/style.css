@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ *{
+     font-family: 'Cairo', sans-serif;
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+ }
+ 
+ header{
+     width: 100%;
+     background-color: rgb(75, 41, 27);
+     z-index: 100;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding:10px 200px;
+     position: fixed;
+ }
+ header a{
+     text-decoration: none;
+     color:white;
+     padding-left: 10px;
+ }
+ .header a:hover{
+     color:burlywood;
+ }
+ .logo {
+     font-size: 20px;
+     font-style: bold;
+     font-weight: 900;
+ }
+ .section {
+     background-color: white;
+     width: 100%;
+     height: 600px;
+ }
+ .left {
+     width: 33%;
+     height: 100%;
+     background-color: rgb(133, 91, 73);
+ }
+ .left img{
+     width: 90%;
+     height: 85%;
+     margin: 42px 0 0 203px;
+     border-radius: 2%;
+ }
+ .left img:hover{
+     width: 95%;
+     height: 90%;
+     margin: 42px 0 0 203px;
+     border-radius: 2%;
+     box-shadow: 8px 8px rgba(0,0,0, 0.4);
+     transition-duration: 0.6s;
+ }
+ .right {
+     width: 50%;
+     float: right;
+     padding-left: 50px;
+     margin-top: 100px;
+ }
+  .right button{
+     margin-top: 15px;
+     margin-bottom:15px ;
+     background-color:rgb(75, 41, 27);
+     border-radius: 15px;
+     border-style: none;
+     font-size: 17px;
+     padding: 15px;
+     color: white;
+     width: 150px;
+     height: 60px;
+ } 
+ .right button a{
+     text-decoration: none;
+     color: white;
+ }
+ .right button:hover{
+     background-color:rgb(133, 91, 73);
+     border-radius: 15px;
+     border-style: none;
+     font-size: 17px;
+     padding: 15px;
+     color: white;
+     width: 170px;
+     height: 70px;
+     box-shadow: 5px 5px rgba(0,0,0, 0.4);
+ } 
+ .icons a {
+     font-size: 20px;
+     padding-left: 20px;
+     color:rgb(133, 91, 73);
+ }
+ .icons a:hover {
+     padding-left: 20px;
+     color: rgb(133, 91, 73);
+     text-shadow: 1px 1px;
+ }
+ .icons1 a {
+     font-size: 20px;
+     padding-left: 20px;
+     color:rgb(133, 91, 73);
+}
+.icons1 a:hover {
+     padding-left: 20px;
+     color:rgb(133, 91, 73);
+     text-shadow: 1px 1px;
+}
+ .titel-services{
+     width: 100%;
+     margin-top: 10px;
+     display: flex;
+     justify-content: center;
+     color:black;
+     font-style: blod;
+     font-weight: 900;
+}
+ .content{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+ .card{
+     background-color: rgb(255, 223, 181);
+     width: 21.5rem;
+     padding: 25px;;
+     margin-left: 19px;
+     margin: 30px;
+ }
+ .card .icon{
+     font-size: 50px;
+     text-align: center;
+     color:rgb(133, 91, 73);
+ }
+ .card h1{
+     text-align: center;
+     color:black;
+ }
+ .lang button{
+     margin-top: 15px;
+     margin-bottom:15px ;
+     background-color:rgb(75, 41, 27);
+     border-radius: 15px;
+     border-style: none;
+     font-size: 17px;
+     padding: 15px;
+     color: white;
+     width: 150px;
+     height: 60px;
+ } 
+ .lang button:hover{
+     background-color:rgb(133, 91, 73);
+     border-radius: 15px;
+     border-style: none;
+     font-size: 17px;
+     padding: 15px;
+     color: white;
+     width: 140px;
+     height: 70px;
+     box-shadow: 5px 5px rgba(0,0,0, 0.4);
+} 
+ .lang a{
+     text-decoration: none;
+     color: white;  
+ }
+ .projects{
+     background-color:rgb(133, 91, 73);
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ .project-card{
+    background-color:rgb(255, 223, 181);
+     border: 2px solid rgb(255, 223, 181);
+     width: 20em;
+     min-height: 23em;
+     overflow: hidden;
+     margin-left: 10px;
+     margin: 26px;
+     padding: 9px;
+     border-radius: 6px;
+     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+ }
+ .project-card:hover{
+     width: 24em;
+     transition-duration: 0.5s;
+ }
+ .image img{
+     width: 100%;
+ }
+ .title-project{
+     width: 100%;
+     margin-top: 30px;
+     display: flex;
+     justify-content: center;
+     color: black;
+     font-style:bold;
+     font-weight:900;
+ }
+ .project-card a{
+     text-decoration: none;
+     color: white;
+ }
+ .link button{
+     background-color:rgb(75, 41, 27);
+     border-radius: 5px;
+     margin-top: 15px;
+     margin-bottom:15px ;
+     border-radius: 15px;
+     border-style: none;
+     font-size: 17px;
+     color: white;
+     width: 55%;
+     height: 45px;
+ }
+ .project-card p{
+     color:black;
+     font-weight: 600; 
+ }
+ .title-work{
+     width: 100%;
+     margin-top: 40px;
+     display: flex;
+     justify-content: center;
+     color:black;
+     font-style:bold;
+     font-weight:900;
+}
+.name2{
+     margin-left: 115px; 
+     margin-top: 2px;
+}
+.name3{
+    margin-left: 80px;
+    font-weight:600;
+}
+  .footer{
+     background-color:rgb(75, 41, 27);
+     width: 100%;
+     height: 60px;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     padding-top: 10px;
+ }
+ .footer-title{
+    margin-left: 40px;
+ }
+ .social-icons a{
+     font-size: 17px;
+     color: white;
+     margin-left: 5px;
+     padding: 15px;
+     padding-top: 15px;
+ }
+ .name{
+     font-size: 17px;
+     font-weight: 800;
+     color:white;
+ }
